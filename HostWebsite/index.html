@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tenha seu site pronto em menos de 60 segundos. "
+    />
+    <meta
+      property="og:title"
+      content="WebHoster - Hospedagem na Nuvem de forma rápida e ágil. "
+    />
+    <meta
+      property="og:description"
+      content="Tenha acesso à hospedagem na nuvem de maneira rápida, prática e efeiciente. Sem problemas e sem confusões. Seu site em menos de 60 segundos na nuvem. "
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://" />
+    <meta property="og:url" content="http://webhoster.com.br" />
+    <title>WebHoster - Hospedagem na Nuvem</title>
+    <link rel="icon" href="images/favicon-sm.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon-md.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon-lg.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <header>
+      <nav class="nav collapsible">
+        <a aria-label="Moshify" class="nav__brand" href="/"
+          ><img src="images/logo.png" alt=""
+        /></a>
+        <svg class="icon icon--white nav__toggler">
+          <use href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item">
+            <a target="_blank" href="#hospedagem">Hospedagem</a>
+          </li>
+          <li class="nav__item">
+            <a target="_blank" href="#">VPS</a>
+          </li>
+          <li class="nav__item">
+            <a target="_blank" href="#">Domínio</a>
+          </li>
+          <li class="nav__item">
+            <a target="_blank" href="#">Preços</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- /NavBar -->
+
+    <!-- Hero -->
+    <section class="block block--dark block--skewed-left hero">
+      <div class="container grid grid--1x2">
+        <header class="block__header hero__content">
+          <h1 data-aos="zoom-in-up" class="block__heading">
+            WebHoster na Nuvem
+          </h1>
+          <p class="hero__tagline">
+            Hospede seu Website em menos de 60 segundos.
+          </p>
+          <a
+            target="_blank"
+            href="https://codewithmosh.com"
+            class="btn btn--accent btn--stretched"
+            >COMEÇE JÁ!</a
+          >
+        </header>
+        <picture data-aos="zoom-in">
+          <source
+            type="image/webp"
+            srcset="images/banner.webp 1x, images/banner@2x.webp 2x"
+          />
+          <source
+            type="image/png"
+            srcset="images/banner.png 1x, images/banner@2x.png 2x"
+          />
+          <img class="hero__image" src="images/banner.png" alt="" />
+        </picture>
+      </div>
+    </section>
+    <!-- /Hero -->
+
+    <!-- Domains -->
+    <section data-aos="zoom-in-up" class="block container block-domain">
+      <header class="block__header">
+        <h2 id="hospedagem">Planos iniciais em R$9 por mês</h2>
+        <p>Descubra se o seu site ideal está disponível!</p>
+      </header>
+      <div class="input-group">
+        <input
+          aria-label="Domain"
+          type="text"
+          class="input"
+          placeholder="Digite o domínio pretendido..."
+        />
+        <button class="btn btn--accent">
+          <svg class="icon icon--white">
+            <use href="images/sprite.svg#search"></use></svg
+          >Procurar
+        </button>
+      </div>
+      <ul class="list block-domain__prices">
+        <li><span class="badge badge--secondary">.com R$9</span></li>
+        <li>.sg R$10</li>
+        <li>.space R$11</li>
+        <li>.info R$14</li>
+        <li>.net R$10</li>
+        <li>.xyz R$10</li>
+      </ul>
+    </section>
+    <!-- /Domains -->
+
+    <!-- Plans -->
+    <section data-aos="fade-up" class="block container block-plans">
+      <div class="grid grid--1x3">
+        <div class="plan">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <h3 class="plan__name">Básico</h3>
+              <span class="plan__price">R$7</span>
+              <span class="plan__billing-cycle">/mês</span>
+              <span class="badge badge--secondary badge--small">10% OFF</span>
+              <span class="plan__description">Para você experimentar!</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">10 Websites</li>
+                <li class="list__item">Largura de banda Ilimitada</li>
+                <li class="list__item">100 GB SSD Armazenamento</li>
+                <li class="list__item">3 GB RAM</li>
+              </ul>
+              <button class="btn btn--outline btn--block">Compre Agora</button>
+            </div>
+          </div>
+        </div>
+        <div class="plan plan--popular">
+          <div class="card card--primary">
+            <header class="card__header">
+              <h3 class="plan__name">Standard</h3>
+              <span class="plan__price">R$9</span>
+              <span class="plan__billing-cycle">/mês</span>
+              <span class="badge badge--primary badge--small">10% OFF</span>
+              <span class="plan__description">Queridinho da Hospedagem</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">50 Websites</li>
+                <li class="list__item">Largura de banda Ilimitada</li>
+                <li class="list__item">500 GB SSD Armazenamento</li>
+                <li class="list__item">4 GB RAM</li>
+              </ul>
+              <button class="btn btn--outline btn--block">Compre Agora</button>
+            </div>
+          </div>
+        </div>
+        <div class="plan">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <h3 class="plan__name">Bussiness</h3>
+              <span class="plan__price">R$15</span>
+              <span class="plan__billing-cycle">/mês</span>
+              <span class="badge badge--secondary badge--small">10% OFF</span>
+              <span class="plan__description">Para o seu negócio</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Websites Ilimitados</li>
+                <li class="list__item">Largura de banda Ilimitada</li>
+                <li class="list__item">100 GB SSD Armazenamento</li>
+                <li class="list__item">6 GB RAM</li>
+              </ul>
+              <button class="btn btn--outline btn--block">Compre Agora</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Plans -->
+
+    <!-- Features -->
+    <section class="block container">
+      <header class="block__header">
+        <h2>Faça seu site chegar nas nuvens!</h2>
+        <p>Descubra todas as vantagens e benefícios da WebHoster</p>
+      </header>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-right">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use href="images/sprite.svg#easy"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Fácil de Usar</h3>
+          <p>
+            Painéis com design simples, ferramentas didáticas e com fácil
+            compreensão para te deixar mais confortável.
+          </p>
+          <a href="https://codewithmosh.com" target="_blank" class="link-arrow"
+            >Saiba mais</a
+          >
+        </div>
+        <picture data-aos="zoom-in-left">
+          <source
+            type="image/webp"
+            srcset="images/easy.webp 1x, images/easy@2x.webp 2x"
+          />
+          <source
+            type="image/jpg"
+            srcset="images/easy.jpg 1x, images/easy@2x.jpg 2x"
+          />
+          <img class="feature__image" src="images/easy@2x.jpg" alt="" />
+        </picture>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-up">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use href="images/sprite.svg#computer"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Seu site Hospedado rapidamente</h3>
+          <p>
+            Queremos que você consiga ter seu site já. Chega de complicações e
+            burocracias.
+          </p>
+          <a href="https://codewithmosh.com" target="_blank" class="link-arrow"
+            >Saiba mais</a
+          >
+        </div>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="images/fast.webp 1x, images/fast@2x.webp 2x"
+          />
+          <source
+            type="image/jpg"
+            srcset="images/fast.jpg 1x, images/fast@2x.jpg 2x"
+          />
+          <img class="feature__image" src="images/fast@2x.jpg" alt="" />
+        </picture>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-up">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use href="images/sprite.svg#wordpress"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Wordpress</h3>
+          <p>
+            Edite, configure e deixe seu Website com a sua cara. Utilize o
+            Wordpress na nossa plataforma da forma que quiser.
+          </p>
+          <a href="https://codewithmosh.com" target="_blank" class="link-arrow"
+            >Saiba mais</a
+          >
+        </div>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="images/wordpress.webp 1x, images/wordpress@2x.webp 2x"
+          />
+          <source
+            type="image/jpg"
+            srcset="images/wordpress.jpg 1x, images/wordpress@2x.jpg 2x"
+          />
+          <img class="feature__image" src="images/wordpress@2x.jpg" alt="" />
+        </picture>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-left">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use href="images/sprite.svg#clock"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Suporte 24h/7</h3>
+          <p>
+            Problemas, dúvidas ou não consegue resolver algo? Basta nos chamar a
+            qualquer hora.
+          </p>
+          <a href="https://codewithmosh.com" target="_blank" class="link-arrow"
+            >Saiba mais</a
+          >
+        </div>
+        <picture data-aos="fade-right">
+          <source
+            type="image/webp"
+            srcset="images/support.webp 1x, images/support@2x.webp 2x"
+          />
+          <source
+            type="image/jpg"
+            srcset="images/support.jpg 1x, images/support@2x.jpg 2x"
+          />
+          <img class="feature__image" src="images/support@2x.jpg" alt="" />
+        </picture>
+      </article>
+    </section>
+    <!-- /Features -->
+
+    <!-- Showcase -->
+    <section class="block block--dark block--skewed-right block-showcase">
+      <header class="block__header">
+        <h2>Painél de Usuário Simples & Dinâmico</h2>
+      </header>
+      <div class="container grid grid--1x2">
+        <picture data-aos="fade-right" class="block-showcase__image">
+          <source
+            type="image/webp"
+            srcset="images/ipad.webp 1x, images/ipad@2x.webp 2x"
+          />
+          <source
+            type="image/png"
+            srcset="images/ipad.png 1x, images/ipad@2x.png 2x"
+          />
+          <img src="images/ipad.png" alt="" />
+        </picture>
+        <ul class="list" data-aos="fade-up">
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use href="images/sprite.svg#snap"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Fácil de Iniciar e Manter</h3>
+                <p>
+                  Começe a hospedar seu site na núvem já, de forma rapida e
+                  fácil. Manutenção tão simples quanto colocar o site no ar.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use href="images/sprite.svg#growth"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">GIT & WP-CLI</h3>
+                <p>
+                  Aproveite dessas ferramentas agora mesmo dentro da plataforma
+                  do Wordpress. Configure seu site e deixe com a sua cara.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use href="images/sprite.svg#wordpress"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Cache diâmico & mais</h3>
+                <p>
+                  Chega de problemas com Cache de seu website, e diversos outros
+                  benefícios para te ajudar.
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- /Showcase -->
+
+    <!-- Testimonials -->
+    <section class="block" data-aos="zoom-in">
+      <header class="block__header">
+        <h2>O que nossos clientes dizem?</h2>
+        <p>Veja as opiniões de quem contratou e gostou!</p>
+      </header>
+      <div class="container">
+        <div class="card testimonial">
+          <div class="grid grid--1x2">
+            <div class="testimonial__image">
+              <img src="images/testimonial.jpg" alt="Consumidor feliz" />
+              <span class="icon-container icon-container--accent">
+                <svg class="icon icon--white icon--small">
+                  <use href="images/sprite.svg#quotes"></use>
+                </svg>
+              </span>
+            </div>
+            <blockquote class="quote">
+              <p class="quote__text">
+                A WebHoster tornou minha vida mais fácil. Sem complicações com
+                servidores, agora tudo na nuvem. Não preciso me preocupar mais.
+              </p>
+              <footer>
+                <div class="media">
+                  <div class="media__image">
+                    <svg class="icon icon--primary quote__line">
+                      <use href="images/sprite.svg#line"></use>
+                    </svg>
+                  </div>
+                  <div class="media__body">
+                    <h3 class="media__title quote__author">Antonio Silva</h3>
+                    <p class="quote__organization">TI Soluções</p>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials -->
+
+    <!-- Call to Action -->
+    <div class="container">
+      <div class="callout callout--primary callout-signup">
+        <div class="grid grid--1x2">
+          <div class="callout__content">
+            <h2 class="callout__heading">Pronto para começar?</h2>
+            <p>
+              Pronto para experimentar os benefícios da Hospedagem com a
+              WebHoster? Se não gostar, o cancelamento é feito gratuito e sem
+              complicações. Queremos o seu melhor.
+            </p>
+          </div>
+          <a
+            target="_blank"
+            href="https://codewithmosh.com"
+            class="btn btn--secondary btn--stretched"
+            >Começar!</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- /Call to Action -->
+
+    <!-- Footer -->
+    <footer class="block block--dark footer">
+      <div class="container grid footer__sections">
+        <section class="collapsible collapsible--expanded footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Produtos</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use href="images/sprite.svg#chevron"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Hospedagem Web</a></li>
+              <li><a href="#">Wordpress automatizado</a></li>
+              <li><a href="#">Migrações</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Empresa</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use href="images/sprite.svg#chevron"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Sobre</a></li>
+              <li><a href="#">Afiliados</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Suporte</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use href="images/sprite.svg#chevron"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Contato</a></li>
+              <li><a href="#">Termos</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Domínios</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use href="images/sprite.svg#chevron"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Checar domínio</a></li>
+              <li><a href="#">Transferência de domínio</a></li>
+              <li><a href="#">Domínio gratuito</a></li>
+            </ul>
+          </div>
+        </section>
+        <div class="footer__brand">
+          <img src="images/logo2.png" alt="" />
+          <p class="footer__copyright">Copyright 2020</p>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer -->
+
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
