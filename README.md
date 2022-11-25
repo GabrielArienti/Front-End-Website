@@ -2,8 +2,23 @@
 
 Demo of a WebSite using Pure HTML and Object Oriented CSS, applying SOLID and Clean Code. 
 
-<iframe id="ytplayer" type="text/html" width="640" height="360"
-  src="https://youtu.be/1cgZe__oPm8"
-  frameborder="0"/>
+https://youtu.be/1cgZe__oPm8
 
+<script>
+  // Load the IFrame Player API code asynchronously.
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/player_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
+  // Replace the 'ytplayer' element with an <iframe> and
+  // YouTube player after the API code downloads.
+  var player;
+  function onYouTubePlayerAPIReady() {
+    player = new YT.Player('ytplayer', {
+      height: '360',
+      width: '640',
+      videoId: 'M7lc1UVf-VE'
+    });
+  }
+</script>
