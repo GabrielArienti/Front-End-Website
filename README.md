@@ -1,6 +1,10 @@
 # Front-End - Website - WebHoster.
 
-Demo of a WebSite using Pure HTML and Object Oriented CSS, applying SOLID and Clean Code and Mobile First. 
+Demo of a WebSite using Pure HTML, CSS and JavaScript. 
+Features: 
+- Object Oriented CSS
+- SOLID and Clean Code
+- Mobile First. 
 
 
 Youtube Link wiht the Demo of the Website. 
